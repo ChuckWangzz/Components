@@ -1,0 +1,46 @@
+.w-divide-page {
+  display: inline-block;
+  li {
+    width: 36px;
+    height: 36px;
+    border: 1px solid #dcdcdc;
+    font-size: 14px;
+    line-height: 36px;
+    text-align: center;
+    color: #666666;
+    position: relative;
+    margin-right: -1px;
+    float: left;
+    cursor: pointer;
+    &:hover {
+      border-color: #666666;
+      z-index: 1;
+    }
+    &.select {
+      color: #fff;
+      background-color: #666666;
+      border: 0;
+      width: 38px;
+      height: 38px;
+      margin-right: 0;
+      cursor: default;
+    }
+    &.dot {
+      border: 0;
+      cursor: default;
+    }
+  }
+  .forward-page, .next-page {
+    width: 66px;
+    border: 1px solid #dcdcdc;
+    &:hover {
+      border-color: #666666;
+    }
+  }
+  .forward-page {
+    margin-right: 6px;
+  }
+  .next-page {
+    margin-left: 6px;
+  }
+}
