@@ -1,3 +1,4 @@
+// 分页组件
 function createDividePage (_currentNum, _totalNum, _elem) {
   function addLi(_begin, _lis, _count, _currentNum) {
     for(var i=_begin; i<=_count; i++) {
