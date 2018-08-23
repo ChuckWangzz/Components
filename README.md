@@ -1,2 +1,2 @@
-# Components
-some components by myself
+# JS Components
+Some JS Components
